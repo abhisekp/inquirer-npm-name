@@ -61,6 +61,17 @@ module.exports = generators.Base.extend({
 
 **Returns:** A `Promise` resolved with the answer object.
 
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+| [<img src="https://avatars.githubusercontent.com/u/1029200?v=3" width="100px;"/><br /><sub>Abhisek Pattnaik</sub>](http://about.me/abhisekp)<br />[💻](https://github.com/sboudrias/inquirer-npm-name/commits?author=abhisekp) 💡 |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
+
 ## License
 
 MIT © [Simon Boudrias](http://twitter.com/vaxilart)
