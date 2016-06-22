@@ -8,7 +8,11 @@
     "email": "admin@simonboudrias.com",
     "url": "http://simonboudrias.com"
   },
-  "contributors": [
+  "contributors": [{
+      "name": "Simon Boudrias",
+      "email": "admin@simonboudrias.com",
+      "url": "http://simonboudrias.com"
+    },
     "Abhisek Pattnaik <abhisekp@engineer.com> (https://about.me/abhisekp)"
   ],
   "files": [
