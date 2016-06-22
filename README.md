@@ -1,6 +1,8 @@
-# inquirer-npm-name [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
+# inquirer-npm-name
 Helper function using [inquirer](https://github.com/SBoudrias/Inquirer.js) to validate a value provided in a prompt does not exist as a npm package.
+
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url] [![All Contributors](all-contributors-image)](#contributors)
 
 If the value is already used as a npm package, then the users will be prompted and asked if they want to choose another one. If so, we'll recurse through the same validation process until we have a name that is unused on the npm registry. This is a helper to catch naming issue in advance, it is not a validation rule as the user can always decide to continue with the same name.
 
