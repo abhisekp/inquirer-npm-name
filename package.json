@@ -1,6 +1,6 @@
 {
   "name": "@abhisekp/inquirer-npm-name",
-  "version": "2.0.1-0",
+  "version": "2.0.2-0",
   "description": "Helper function using inquirer to validate a value provided in a prompt does not exist as an npm package.",
   "homepage": "",
   "author": {
@@ -8,7 +8,8 @@
     "email": "admin@simonboudrias.com",
     "url": "http://simonboudrias.com"
   },
-  "contributors": [{
+  "contributors": [
+    {
       "name": "Simon Boudrias",
       "email": "admin@simonboudrias.com",
       "url": "http://simonboudrias.com"
