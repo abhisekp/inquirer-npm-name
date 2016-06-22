@@ -12,36 +12,44 @@ If the value is already used as a npm package, then the users will be prompted a
 $ npm install --save @abhisekp/inquirer-npm-name # npm i -S @abhisekp/inquirer-npm-name
 ```
 
-
 ## Usage
 
 ```js
-var inquirer = require('inquirer');
-var askName = require('inquirer-npm-name');
+const inquirer = require('inquirer');
+const askName = require('@abhisekp/inquirer-npm-name');
 
 askName({
   name: 'name',
   message: 'Module Name'
-}, inquirer).then(function (answer) {
-  console.log(answer.name);
+}, inquirer).then(answers => {
+  console.log(answers.name);
 });
 ```
 
 Inside a **Yeoman Generator** you'd call it this way:
 
 ```js
-var generators = require('yeoman-generator');
-var inquirer = require('inquirer');
-var askName = require('inquirer-npm-name');
+const generators = require('yeoman-generator');
+const inquirer = require('inquirer');
+const askName = require('@abhisekp/inquirer-npm-name');
 
 module.exports = generators.Base.extend({
   prompting: function () {
-    return askName({
-      name: 'name',
-      message: 'Module Name'
-    }, this).then(function (name) {
-      console.log(name);
-    });
+    const appNamePrompt = {
+      type: 'input',
+      name: 'appname',
+      message: 'What would you like to name the app?',
+      default: answers => this.appname, // optional
+      filter: appname => appname.trim().replace(/\s+/g, '-').toLowerCase() // optional
+    };
+
+    const prompts = []; // other prompts
+
+    return askName(appNamePrompt, this)
+      .then(name =>
+        this.prompt(prompts)
+          .then(answers => this.answers = answers)
+      );
   }
 });
 ```
