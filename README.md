@@ -76,12 +76,12 @@ This project follows the [all-contributors](https://github.com/kentcdodds/all-co
 
 MIT © [Simon Boudrias](http://twitter.com/vaxilart)
 
-
-[npm-image]: https://badge.fury.io/js/inquirer-npm-name.svg
-[npm-url]: https://npmjs.org/package/inquirer-npm-name
-[travis-image]: https://travis-ci.org/SBoudrias/inquirer-npm-name.svg?branch=master
-[travis-url]: https://travis-ci.org/SBoudrias/inquirer-npm-name
-[daviddm-image]: https://david-dm.org/SBoudrias/inquirer-npm-name.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/SBoudrias/inquirer-npm-name
-[coveralls-image]: https://coveralls.io/repos/SBoudrias/inquirer-npm-name/badge.svg
-[coveralls-url]: https://coveralls.io/r/SBoudrias/inquirer-npm-name
+[npm-image]: https://badge.fury.io/js/%40abhisekp%2Finquirer-npm-name.svg
+[npm-url]: https://www.npmjs.com/package/@abhisekp/inquirer-npm-name
+[travis-image]: https://travis-ci.org/abhisekp/inquirer-npm-name.svg?branch=improve-availability-check
+[travis-url]: https://travis-ci.org/abhisekp/inquirer-npm-name
+[daviddm-image]: https://david-dm.org/abhisekp/inquirer-npm-name.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/abhisekp/inquirer-npm-name
+[coveralls-image]: https://coveralls.io/repos/github/abhisekp/inquirer-npm-name/badge.svg?branch=improve-availability-check
+[coveralls-url]: https://coveralls.io/github/abhisekp/inquirer-npm-name?branch=improve-availability-check
+[all-contributors-image]: https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square
