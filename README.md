@@ -9,7 +9,7 @@ If the value is already used as a npm package, then the users will be prompted a
 ## Install
 
 ```sh
-$ npm install --save inquirer-npm-name
+$ npm install --save @abhisekp/inquirer-npm-name # npm i -S @abhisekp/inquirer-npm-name
 ```
 
 
