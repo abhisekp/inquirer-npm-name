@@ -66,7 +66,7 @@ module.exports = generators.Base.extend({
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars.githubusercontent.com/u/1029200?v=3" width="100px;"/><br /><sub>Abhisek Pattnaik</sub>](http://about.me/abhisekp)<br />[💻](https://github.com/sboudrias/inquirer-npm-name/commits?author=abhisekp) 💡 |
+| [<img src="https://avatars.githubusercontent.com/u/1029200?v=3" width="100px;"/><br /><sub>Abhisek Pattnaik</sub>](http://about.me/abhisekp)<br />[💻](https://github.com/abhisekp/inquirer-npm-name/commits?author=abhisekp "Code") [💡](#usage "Examples") |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
