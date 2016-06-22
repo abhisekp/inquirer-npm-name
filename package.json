@@ -22,7 +22,10 @@
     "yeoman",
     "package"
   ],
-  "repository": "SBoudrias/inquirer-npm-name",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhisekp/inquirer-npm-name.git"
+  },
   "devDependencies": {
     "eslint": "^2.1.0",
     "eslint-config-xo-space": "^0.13.0",
