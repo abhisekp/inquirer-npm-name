@@ -32,7 +32,7 @@
     "url": "https://github.com/abhisekp/inquirer-npm-name.git"
   },
   "devDependencies": {
-    "eslint": "^2.1.0",
+    "eslint": "^4.18.2",
     "eslint-config-xo-space": "^0.13.0",
     "gulp": "^3.9.0",
     "gulp-coveralls": "^0.1.0",
