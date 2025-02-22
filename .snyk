@@ -1,0 +1,40 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - gulp-nsp > nsp > wreck > hoek:
+        patched: '2025-02-22T08:52:13.877Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-nsp > nsp > wreck > hoek
+    - gulp-nsp > nsp > wreck > boom > hoek:
+        patched: '2025-02-22T08:52:13.877Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-nsp > nsp > wreck > boom > hoek
+    - gulp-coveralls > coveralls > request > hawk > hoek:
+        patched: '2025-02-22T08:52:13.877Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-coveralls > coveralls > request > hawk > hoek
+    - gulp-coveralls > coveralls > request > hawk > boom > hoek:
+        patched: '2025-02-22T08:52:13.877Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-coveralls > coveralls > request > hawk > boom > hoek
+    - gulp-coveralls > coveralls > request > hawk > sntp > hoek:
+        patched: '2025-02-22T08:52:13.877Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-coveralls > coveralls > request > hawk > sntp > hoek
+    - gulp-coveralls > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2025-02-22T08:52:13.877Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-coveralls > coveralls > request > hawk > cryptiles > boom > hoek
+  'npm:minimatch:20160620':
+    - gulp-mocha > mocha > glob > minimatch:
+        patched: '2025-02-22T08:52:13.877Z'
+        id: 'npm:minimatch:20160620'
+        path: gulp-mocha > mocha > glob > minimatch
+  'npm:tunnel-agent:20170305':
+    - gulp-coveralls > coveralls > request > tunnel-agent:
+        patched: '2025-02-22T08:52:13.877Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: gulp-coveralls > coveralls > request > tunnel-agent
